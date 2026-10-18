@@ -1,0 +1,9 @@
+pandas
+numpy
+psutil
+pygetwindow; platform_system == "Windows"
+scikit-learn
+streamlit
+plotly
+sqlalchemy
+pytest
