@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Local databases and activity data
+*.db
+*.sqlite
+*.sqlite3
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Locally generated model artifacts
+models/*
+!models/.gitkeep
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
